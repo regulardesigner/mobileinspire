@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/css/normalize.css">
+	    <link rel="stylesheet" href="/css/foundation.css">
+	    <link rel="stylesheet" href="/css/style.css">
+
+    </head>
+    <body>
+
+        <div class="site row">
+          <div class="header">
+            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+          </div>
+          <div id="content">
+          	{{ content }}
+          </div>
+        </div>
+		<script src="{{ theme_url }}/js/vendor/jquery.js"></script>
+	    <script src="{{ theme_url }}/js/foundation.min.js"></script>
+	    <script>
+	        $(document).foundation();
+	    </script>
+    </body>
+</html>
