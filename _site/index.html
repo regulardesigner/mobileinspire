@@ -11,27 +11,74 @@
     </head>
     <body>
 
-        <div class="site row">
+        <div class="site">
           <div class="header">
             <h1 class="title"><a href="/">Mobile Inspiration</a></h1>
           </div>
           <div id="content">
           	<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
+  <h1>the list</h1>
+  <div class="posts-list">
     
-      <li><span>08 Apr 2014</span> &raquo; <a href="/iphone/ipad/2014/04/08/fnac-app.html">Fnac app</a></li>
+      <div class="post">
+          <h2><img src="http://placehold.it/100x100&text=icon.png" alt=""><span>08 Apr 2014</span> &raquo; <a href="/iphone/ipad/2014/04/08/fnac-app.html">Fnac app</a></h2>
+          <ul id="thumbs" class="small-block-grid-4 clearing-thumbs" data-clearing>
+            
+            <li><img class="lazy" data-original="/img/fnac/fnac-01.png" height="568" width="320"  alt=""></li>
+            
+            <li><img class="lazy" data-original="/img/fnac/fnac-02.png" height="568" width="320"  alt=""></li>
+            
+            <li><img class="lazy" data-original="/img/fnac/fnac-04.png" height="568" width="320"  alt=""></li>
+            
+            <li><img class="lazy" data-original="/img/fnac/fnac-03.png" height="568" width="320"  alt=""></li>
+            
+          </ul>
+      </div>
     
-      <li><span>04 Mar 2014</span> &raquo; <a href="/jekyll/update/2014/03/04/welcome-to-jekyll.html">Welcome to Jekyll!</a></li>
+      <div class="post">
+          <h2><img src="http://placehold.it/100x100&text=icon.png" alt=""><span>07 Apr 2014</span> &raquo; <a href="/iphone/2014/04/07/upcoffee-app.html">Up Coffee app</a></h2>
+          <ul id="thumbs" class="small-block-grid-4 clearing-thumbs" data-clearing>
+            
+            <li><img class="lazy" data-original="/img/upcoffee/upcoffee-01.png" height="568" width="320"  alt=""></li>
+            
+            <li><img class="lazy" data-original="/img/upcoffee/upcoffee-02.png" height="568" width="320"  alt=""></li>
+            
+            <li><img class="lazy" data-original="/img/upcoffee/upcoffee-03.png" height="568" width="320"  alt=""></li>
+            
+            <li><img class="lazy" data-original="/img/upcoffee/upcoffee-04.png" height="568" width="320"  alt=""></li>
+            
+            <li><img class="lazy" data-original="/img/upcoffee/upcoffee-05.png" height="568" width="320"  alt=""></li>
+            
+          </ul>
+      </div>
     
-  </ul>
+      <div class="post">
+          <h2><img src="http://placehold.it/100x100&text=ico.png" alt=""><span>06 Apr 2014</span> &raquo; <a href="/iphone/2014/04/06/mrmood-app.html">Mr Mood</a></h2>
+          <ul id="thumbs" class="small-block-grid-4 clearing-thumbs" data-clearing>
+            
+            <li><img class="lazy" data-original="/img/mrmood/mrmood-01.jpg" height="568" width="320"  alt=""></li>
+            
+            <li><img class="lazy" data-original="/img/mrmood/mrmood-02.jpg" height="568" width="320"  alt=""></li>
+            
+            <li><img class="lazy" data-original="/img/mrmood/mrmood-03.jpg" height="568" width="320"  alt=""></li>
+            
+            <li><img class="lazy" data-original="/img/mrmood/mrmood-04.jpg" height="568" width="320"  alt=""></li>
+            
+          </ul>
+      </div>
+    
+  </div>
 </div>
           </div>
         </div>
 		<script src="/js/vendor/jquery.js"></script>
+	    <script src="/js/jquery.lazyload.min.js"></script>
+	    <script src="/js/jquery.scrollstop.min.js"></script>
 	    <script src="/js/foundation.min.js"></script>
 	    <script>
 	        $(document).foundation();
+	        $(function() { $("img.lazy").lazyload(
+                {effect : "fadeIn", event: "scrollstop"}); });
 	    </script>
     </body>
 </html>

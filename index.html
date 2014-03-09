@@ -3,10 +3,17 @@ layout: default
 title: Mobile Inspiration (by Mediaconnect)
 ---
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
+  <h1>the list</h1>
+  <div class="posts-list">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <div class="post">
+          <h2><img src="http://placehold.it/100x100&text={{post.iconapp}}" alt=""><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <ul id="thumbs" class="small-block-grid-4 clearing-thumbs" data-clearing>
+            {% for thumb in post.thumb %}
+            <li><img class="lazy" data-original="/img/{{ thumb }}" height="568" width="320"  alt=""></li>
+            {% endfor %}
+          </ul>
+      </div>
     {% endfor %}
-  </ul>
+  </div>
 </div>
