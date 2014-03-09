@@ -6,4 +6,10 @@ layout: default
 
 <div class="post">
 {{ content }}
+<ul id="thumbs" class="small-block-grid-4 clearing-thumbs" data-clearing>
+    {% for thumb in page.thumb %}
+    <li><img src="/img/{{ thumb }}" alt=""></li>
+    {% endfor %}
+</ul>
 </div>
+

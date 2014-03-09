@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Fnac app"
+date:   2014-04-08 14:55:00
+categories: iphone ipad   
+thumb: [fnac/fnac-01.png, fnac/fnac-02.png, fnac/fnac-04.png, fnac/fnac-03.png]
+---
+
+# Fnac App for iPad and iPhone
+{{ thumb }}
