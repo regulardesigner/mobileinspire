@@ -9,16 +9,23 @@
 	    <link rel="stylesheet" href="/css/style.css">
 
     </head>
-    <body>
+    <body class="clearfix">
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-          </div>
-          <div id="content">
+        <div class="site clearfix">
+            <header class="head-nav contain-to-grid sticky" data-options="sticky_on: large">
+                <nav class="top-bar row" data-topbar>
+                  <ul class="title-area">
+                    <li class="name"><h1><a href="/">{{ site.name }}</a></h1></li>
+                    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+                  </ul>
+                </nav>
+            </header><!-- end header-->
+          <div id="content clearfix">
           	{{ content }}
           </div>
+          <!-- end content -->
         </div>
+        <!-- end site -->
 		<script src="{{ theme_url }}/js/vendor/jquery.js"></script>
 	    <script src="{{ theme_url }}/js/jquery.lazyload.min.js"></script>
 	    <script src="{{ theme_url }}/js/jquery.scrollstop.min.js"></script>

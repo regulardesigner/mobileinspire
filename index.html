@@ -1,19 +1,25 @@
 ---
 layout: default
-title: Mobile Inspiration (by Mediaconnect)
+title: Late Night Mobile App Inspiration
 ---
-<div id="home">
-  <h1>the list</h1>
-  <div class="posts-list">
+  <div class="posts row">
     {% for post in site.posts %}
-      <div class="post">
-          <h2><img src="http://placehold.it/100x100&text={{post.iconapp}}" alt=""><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></h2>
-          <ul id="thumbs" class="small-block-grid-4 clearing-thumbs" data-clearing>
+      <div class="post small-12 column">
+        <h2 class="clearfix text-center">
+            <img class="ico-radius" src="/img/{{post.iconapp}}" alt="">
+        </h2>
+            <div class="text-center"><a class="white button round tiny" href="{{ post.url }}">{{ post.title }}</a></div>
+            <div class="thumbs row clearfix">
             {% for thumb in post.thumb %}
-            <li><img class="lazy" data-original="/img/{{ thumb }}" height="568" width="320"  alt=""></li>
+                {% if count | modulo:4 == 0 %}
+                <div class="small-6 medium-3 columns">
+                {% else %}
+                <div class="small-6 medium-3 end columns">
+                {% endif %}
+                    <img class="lazy screenshot" src="/img/{{ thumb }}" height="568" width="320"  alt="">
+                </div>
             {% endfor %}
-          </ul>
-      </div>
+            </div><!-- end thumbs -->
+      </div><!-- end post -->
     {% endfor %}
-  </div>
-</div>
+  </div><!-- end post -->
