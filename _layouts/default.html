@@ -4,9 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="/css/normalize.css">
-	    <link rel="stylesheet" href="/css/foundation.css">
-	    <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+	    <link rel="stylesheet" href="{{ site.baseurl }}/css/foundation.css">
+	    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 
     </head>
     <body class="clearfix">
@@ -26,10 +26,10 @@
           <!-- end content -->
         </div>
         <!-- end site -->
-		<script src="{{ theme_url }}/js/vendor/jquery.js"></script>
-	    <script src="{{ theme_url }}/js/jquery.lazyload.min.js"></script>
-	    <script src="{{ theme_url }}/js/jquery.scrollstop.min.js"></script>
-	    <script src="{{ theme_url }}/js/foundation.min.js"></script>
+		<script src="{{ site.baseurl }}/js/vendor/jquery.js"></script>
+	    <script src="{{ site.baseurl }}/js/jquery.lazyload.min.js"></script>
+	    <script src="{{ site.baseurl }}/js/jquery.scrollstop.min.js"></script>
+	    <script src="{{ site.baseurl }}/js/foundation.min.js"></script>
 	    <script>
 	        $(document).foundation();
 	        $(function() { $("img.lazy").lazyload(

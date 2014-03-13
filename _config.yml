@@ -4,3 +4,4 @@ name: Late Night Mobile Inspire
 markdown: redcarpet
 pygments: true
 postThumb: default.png
+baseurl: /mobileinspire
