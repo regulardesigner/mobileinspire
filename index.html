@@ -8,7 +8,7 @@ title: Late Night Mobile Inspire
         <h2 class="clearfix text-center">
             <img class="ico-radius" src="{{ site.baseurl }}/img/{{post.iconapp}}" alt="">
         </h2>
-            <div class="text-center"><a class="white button round tiny" href="{{ post.url }}">{{ post.title }}</a></div>
+            <div class="text-center"><a class="white button round tiny" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
             <div class="thumbs row clearfix">
             {% for thumb in post.thumb %}
                 {% if count | modulo:4 == 0 %}
