@@ -6,7 +6,7 @@ title: Late Night Mobile Inspire
     {% for post in site.posts %}
       <div class="post small-12 column">
         <h2 class="clearfix text-center">
-            <img class="ico-radius" src="{{ site.baseurl }}/img/{{post.iconapp}}" alt="">
+            <img class="ico-radius" src="{{ site.baseurl }}/img/{{ post.imgPath }}/{{ post.iconapp }}" alt="">
         </h2>
             <div class="text-center"><a class="white button round tiny" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
             <div class="thumbs row clearfix">
@@ -16,7 +16,7 @@ title: Late Night Mobile Inspire
                 {% else %}
                 <div class="small-6 medium-3 end columns">
                 {% endif %}
-                    <img class="lazy screenshot" src="{{ site.baseurl }}/img/{{ thumb }}" height="568" width="320"  alt="">
+                    <img class="lazy screenshot" src="{{ site.baseurl }}/img/{{ post.imgPath }}/{{ thumb }}" height="568" width="320"  alt="">
                 </div>
             {% endfor %}
             </div><!-- end thumbs -->

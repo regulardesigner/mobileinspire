@@ -3,8 +3,9 @@ layout: post
 title:  "Fnac app"
 date:   2014-04-08 14:55:00
 categories: iphone ipad
-iconapp: fnac/fnac-ico.jpg
-thumb: [fnac/fnac-01.png, fnac/fnac-02.png, fnac/fnac-04.png, fnac/fnac-03.png]
+iconapp: fnac-ico.jpg
+imgPath: 03-fnac
+thumb: [fnac-01.png, fnac-02.png, fnac-04.png, fnac-03.png]
 ---
 
 # Fnac App for iPad and iPhone
