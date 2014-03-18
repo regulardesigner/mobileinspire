@@ -10,7 +10,7 @@ layout: default
     <div class="small-12 column">{{ content }}</div>
     {% for thumb in page.thumb %}
     <div class="small-6 medium-6 columns">
-        <img class="lazy screenshot" data-original="/img/{{ page.imgPath }}/{{ thumb }}" width="320" height="568"  alt="">
+        <img class="lazy screenshot" data-original="{{ site.baseurl }}/img/{{ page.imgPath }}/{{ thumb }}" width="320" height="568"  alt="">
     </div>
     {% endfor %}
 </div>
