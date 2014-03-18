@@ -1,3 +1,4 @@
+
 body{
     background-attachment:scroll;
     background: #003666;
@@ -9,6 +10,7 @@ background: -ms-linear-gradient(top,  #003666 0%,#7db9e8 75%,#ebedc4 100%);
 background: linear-gradient(to bottom,  #003666 0%,#7db9e8 75%,#ebedc4 100%); 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003666', endColorstr='#ebedc4',GradientType=0 );
 background-attachment: fixed;
+color:white;
 }
 
 .screenshot{
@@ -17,9 +19,9 @@ background-attachment: fixed;
 }
 
 .ico-radius{
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
     -webkit-box-shadow: 0 0 15px rgba(0,0,0,.3);
     -moz-box-shadow: 0 0 15px rgba(0,0,0,.3);
     box-shadow: 0 0 15px rgba(0,0,0,.3);
@@ -42,3 +44,5 @@ background-attachment: fixed;
     background-color: rgba(255,255,255,.5);
 }
 .top-bar{background-color:transparent}
+
+h1,h2,h3,h4,h5,h6{color:white;}
