@@ -5,4 +5,4 @@ markdown: redcarpet
 pygments: true
 postThumb: default.png
 imgPath:
-baseurl: http://regulardesigner.github.io/mobileinspire
+baseurl: http://mobileinspi.re/
