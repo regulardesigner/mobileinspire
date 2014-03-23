@@ -3,6 +3,8 @@ gems:
 name: Mobile Inspire
 markdown: redcarpet
 pygments: true
+safe: true
+lsi: false
 postThumb: default.png
 imgPath:
 baseurl: http://mobileinspi.re
