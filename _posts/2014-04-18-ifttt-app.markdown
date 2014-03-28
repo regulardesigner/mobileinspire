@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Randm App"
+title:  "Ifttt App"
 date:   2014-04-18 13:30:00
-categories: iphone
-iconapp: randm-ico.jpg
-imgPath: 05-Randm
-thumb: [randm-01.png, randm-02.png, randm-03.png, randm-04.png, randm-05.png, randm-06.png, randm-07.png, randm-08.png, randm-09.png]
+iconapp: ifttt-ico.jpg
+imgPath: 06-ifttt
+thumb: [ifttt-01.jpg, ifttt-02.jpg, ifttt-03.jpg, ifttt-04.jpg, ifttt-05.jpg, ifttt-06.jpg, ifttt-07.jpg, ifttt-08.jpg, ifttt-09.jpg, ifttt-10.jpg, ifttt-11.jpg, ifttt-12.jpg, ifttt-13.jpg]
 ---
 
-# Randm for iPad and iPhone
+# Ifttt for iPhone
