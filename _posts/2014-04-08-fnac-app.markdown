@@ -2,7 +2,6 @@
 layout: post
 title:  "Fnac app"
 date:   2014-04-08 14:55:00
-categories: iphone ipad
 iconapp: fnac-ico.jpg
 imgPath: 03-fnac
 thumb: [fnac-01.jpg, fnac-02.jpg, fnac-04.jpg, fnac-03.jpg]
