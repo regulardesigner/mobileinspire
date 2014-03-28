@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mr Mood</title>
+        <link rel="stylesheet" href="http://mobileinspi.re/css/normalize.css">
+	    <link rel="stylesheet" href="http://mobileinspi.re/css/foundation.css">
+	    <link rel="stylesheet" href="http://mobileinspi.re/css/style.css">
+
+    </head>
+    <body class="clearfix">
+
+        <div class="site clearfix">
+            <header class="head-nav contain-to-grid sticky" data-options="sticky_on: large">
+                <nav class="top-bar row" data-topbar>
+                  <ul class="title-area">
+                    <li class="name"><h1><a href="http://mobileinspi.re">Mobile Inspire</a></h1></li>
+                    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+                  </ul>
+                </nav>
+            </header><!-- end header-->
+          <div id="content clearfix">
+          	<div class="row">
+    <h2 class="small-12 medium-12 large-12 columns">Mr Mood</h2>
+    <p class="meta small-12 medium-12 large-12 columns">06 Apr 2014</p>
+</div>
+
+<div class="row">
+    <div class="small-12 column"><h1>Mr Mood for iPad</h1>
+</div>
+    
+    <div class="small-6 medium-6 columns">
+        <img class="lazy screenshot" data-original="http://mobileinspi.re/img/01-mrmood/mrmood-01.jpg" width="320" height="568"  alt="">
+    </div>
+    
+    <div class="small-6 medium-6 columns">
+        <img class="lazy screenshot" data-original="http://mobileinspi.re/img/01-mrmood/mrmood-02.jpg" width="320" height="568"  alt="">
+    </div>
+    
+    <div class="small-6 medium-6 columns">
+        <img class="lazy screenshot" data-original="http://mobileinspi.re/img/01-mrmood/mrmood-03.jpg" width="320" height="568"  alt="">
+    </div>
+    
+    <div class="small-6 medium-6 columns">
+        <img class="lazy screenshot" data-original="http://mobileinspi.re/img/01-mrmood/mrmood-04.jpg" width="320" height="568"  alt="">
+    </div>
+    
+</div>
+
+
+          </div>
+          <!-- end content -->
+        </div>
+        <!-- end site -->
+		<script src="http://mobileinspi.re/js/vendor/jquery.js"></script>
+	    <script src="http://mobileinspi.re/js/jquery.lazyload.min.js"></script>
+	    <script src="http://mobileinspi.re/js/jquery.scrollstop.min.js"></script>
+	    <script src="http://mobileinspi.re/js/foundation.min.js"></script>
+	    <script>
+	        $(document).foundation();
+	        $(function() { $("img.lazy").lazyload(
+                {effect : "fadeIn", event: "scrollstop"}); });
+	    </script>
+    </body>
+</html>
