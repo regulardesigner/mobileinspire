@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Randm App"
+date:   2014-04-18 13:45:00
+iconapp: randm-ico.jpg
+imgPath: 05-randm
+thumb: [randm-01.jpg, randm-02.jpg, randm-03.jpg, randm-04.jpg, randm-05.jpg, randm-06.jpg, randm-07.jpg, randm-08.jpg, randm-09.jpg]
+---
+
+# Randm

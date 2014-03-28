@@ -1,0 +1,8 @@
+gems: 
+- jekyll-compass
+name: Mobile Inspire
+markdown: redcarpet
+pygments: true
+postThumb: default.png
+imgPath:
+baseurl: http://mobileinspi.re

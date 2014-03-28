@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+	    <link rel="stylesheet" href="{{ site.baseurl }}/css/foundation.css">
+	    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+
+    </head>
+    <body class="clearfix">
+
+        <div class="site clearfix">
+            <header class="head-nav contain-to-grid sticky" data-options="sticky_on: large">
+                <nav class="top-bar row" data-topbar>
+                  <ul class="title-area">
+                    <li class="name"><h1><a href="{{ site.baseurl }}">{{ site.name }}</a></h1></li>
+                    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+                  </ul>
+                </nav>
+            </header><!-- end header-->
+          <div id="content clearfix">
+          	{{ content }}
+          </div>
+          <!-- end content -->
+        </div>
+        <!-- end site -->
+		<script src="{{ site.baseurl }}/js/vendor/jquery.js"></script>
+	    <script src="{{ site.baseurl }}/js/jquery.lazyload.min.js"></script>
+	    <script src="{{ site.baseurl }}/js/jquery.scrollstop.min.js"></script>
+	    <script src="{{ site.baseurl }}/js/foundation.min.js"></script>
+	    <script>
+	        $(document).foundation();
+	        $(function() { $("img.lazy").lazyload(
+                {effect : "fadeIn", event: "scrollstop"}); });
+	    </script>
+    </body>
+</html>
